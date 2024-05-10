@@ -1,0 +1,6 @@
+Error when running the demo.py:
+    - Import of cupoch fails due to rrequirement of CUDA
+        - cupoch is used for processing the 3D pointclouds on the GPU
+        - https://github.com/neka-nat/cupoch
+
+        --> all in the class ModelFreeCollisionDetector() --> maybe we can run the code without collision checking

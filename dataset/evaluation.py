@@ -341,7 +341,7 @@ def calculate_iou_match(gs, gt_bbs, thre=0.25):
     return False
 
 
-def collision_detect(points_all: torch.Tensor, pred_gg, mode='regnet'):
+def collision_detect(points_all: torch.Tensor, pred_gg, mode='regnet'):     #currently not working due to lack of CUDA support on AMD GPU
     # collison detect
     cloud = points_all[:, :3].clone()
     mfcdetector = ModelFreeCollisionDetector(cloud, voxel_size=0.01, mode=mode)
