@@ -1,6 +1,6 @@
 from time import time
 
-import cupoch   ##error while import -> uses the CUDA API to process point clouds
+import cupoch   #error while import -> uses the CUDA API to process point clouds
 import numpy as np
 import open3d as o3d
 import torch

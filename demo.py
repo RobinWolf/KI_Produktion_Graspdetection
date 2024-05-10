@@ -12,7 +12,7 @@ from PIL import Image
 
 from dataset.config import get_camera_intrinsic
 from dataset.evaluation import (anchor_output_process, collision_detect,
-                                detect_2d_grasp, detect_6d_grasp_multi) ##error --> look @evaluation.py line 9
+                                detect_2d_grasp, detect_6d_grasp_multi) #error --> look @evaluation.py line 9
 from dataset.pc_dataset_tools import data_process, feature_fusion
 from models.anchornet import AnchorGraspNet
 from models.localgraspnet import PointMultiGraspNet
