@@ -1,0 +1,16 @@
+numpy==1.23.5
+pandas
+cupoch
+numba
+grasp_nms
+matplotlib
+open3d
+opencv-python
+scikit-image
+tensorboardX
+torchsummary
+tqdm
+transforms3d
+trimesh
+autolab_core
+cvxopt
